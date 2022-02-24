@@ -1,5 +1,5 @@
 from rest_framework import generics
-from todo_api.models import Task
+from tasks.models import Task
 from .serializers import TaskSerializer
 
 
